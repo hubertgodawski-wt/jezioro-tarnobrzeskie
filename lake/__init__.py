@@ -1,0 +1,1 @@
+"""Pakiet aplikacji Jezioro Tarnobrzeskie."""
