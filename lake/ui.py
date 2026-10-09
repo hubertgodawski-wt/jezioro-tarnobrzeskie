@@ -76,8 +76,8 @@ def _chart_style(fig, theme="light", height=300):
         hovermode="x unified",
     )
     fig.update_xaxes(showgrid=False)
-fig.update_yaxes(gridcolor="rgba(123,152,172,0.20)", zeroline=False)
-return fig
+    fig.update_yaxes(gridcolor="rgba(123,152,172,0.20)", zeroline=False)
+    return fig
 
 
 def _show_alerts(warnings: list[dict] | None, now: datetime):
